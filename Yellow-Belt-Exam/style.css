@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navigation Bar */
+
+/* Teal Box containg Header and Sub-Header */
+.top {
+    background-color: #119B9D;
+    padding: 20px;
+}
+
+/* Header, containing Header-Left and Header-Right */
+
+.header {
+    display:flex;
+    width: 900px;
+    margin: 10px auto;
+    padding-bottom: 30px;
+}
+
+/* Header-Left, containing heart and Pet Shelter */
+
+.header-left {
+    display:flex;
+    width: 900px;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+.header-left img {
+    width:50px;
+    margin-right: 10px;
+}
+
+/* Header-Right, containing links and donate button */
+
+.header-right {
+    width: 100%;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.header-right a {
+    display:flex;
+    color: black;
+    text-decoration: none;
+}
+
+#donate {
+    background-color: white;
+    border: 2px solid #90f;;
+    border-radius: 25px;
+    color: #90f;
+    padding: 6px;
+    font-size: 24px;
+    width: 100px;
+    margin-top: -20px;
+}
+
+/* Sub-Header containing Sub-Header-Left, Sub-Header-Center, and Sub-Header Right */
+
+.sub-header {
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    width: 896px;
+    margin: 0px auto;
+    padding: 2px;
+}
+
+.image-inline{
+    display: flex;
+    margin-top: 5px;
+}
+
+/* Sub-Header Image Styling */
+
+.image-inline img{
+    margin-right: 5px;
+    width: 25px;
+}
+
+/* Sub-Header Select and Form Styling */
+
+select {
+    width: 100px;
+    margin-top: 5px;
+}
+
+form {
+    display:inline;
+}
+
+input::placeholder {
+    font-weight: normal;
+    font-size: 14px; 
+    color: #888;
+}
+
+/* Sub-Header Right Button */
+
+#friend {
+    background-color: #90f;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+/* Main - Pets for Adoption */
+
+main {
+    width: 900px;
+    margin: 0px auto;
+    justify-content: center;
+    background-color: white;
+}
+
+/* Column Styling within Pet Boxes */
+
+.col, .col-2, .col-3 {
+    display:flex;
+    flex-direction: column;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 4;
+}
+
+.col-3 {
+    flex: 2;
+    align-items: flex-end;
+}
+
+.col img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+button {
+    background-color: #17cfd1;
+    border: 2px solid black;
+    color: black;
+    padding: 6px;
+    box-shadow: 4px 4px black;
+    font-weight: normal;
+    font-size: 20px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* 1st & 3rd Pet Box Styling */
+
+.box {
+    color: black;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    overflow-wrap: normal;
+    width: 860px;
+    margin: 20px 0px;
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* 2nd Pet Box Styling */
+
+.box-2 {
+    color: black;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    overflow-wrap: normal;
+    width: 860px;
+    margin: 20px 0px;
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+}

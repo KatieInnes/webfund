@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header and Sub-Header- */
+
+nav {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 40px
+}
+
+.sub-header {
+    height: 40px;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main section (left and right) */
+
+main {
+    width: 900px;
+    margin: 0px auto;
+    background-color: white;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+/* Left Side (Avatar) */
+
+.left {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    border: 5px solid black;
+    height: 200px;
+    margin-right: 10px;
+    padding: 20px 0px;
+}
+
+img {
+    width: 75px;
+}
+
+/* Right Side (Like Boxes) */
+
+.right {
+    flex:3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end; 
+}
+
+.box {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border: 5px solid black;
+    overflow-wrap: normal;
+    width: 640px;
+    margin: 0px 0px 20px 10px;
+}
+
+.top {
+    display:flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.col, .col-2 {
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color:#F1CA4E;
+    border: 2px solid black;
+    color: black;
+    padding: 6px;
+    box-shadow: 4px 4px black;
+    font-weight: normal;
+    font-size: 14px;
+    width: 50px;
+}

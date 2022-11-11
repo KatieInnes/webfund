@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Exam</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <h1>Welcome to Billy's Hero Shop</h1>
+            <div class="nav-links"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Blog</a></li>
+                <li>
+                    <img src="#">
+                    <span>0</span>
+                </li>
+            </ul>
+            <form action="#" onsubmit="SearchAlert(event, this)">
+                <input type="text" name="search-bar" id="search-bar" value="Search">
+            </form>
+        </nav>
+        <main>
+            <div class="popup">
+                <h3>Heroic Deal!</h3>
+                <p>Save 20% with code: <br> 
+                enchanted</p>
+                <button>onclick="removePopup()"No</button>
+                <button>onclick="removePopup()"Yes</button>
+            </div>
+            <div class="featured-products">
+                <h2>Featured Products</h2>
+                <img src="#" alt="golden_sword_of_battle">
+                <h2>Golden Sword of Battle (AKA "Scarlet")</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quos cumque eligendi harum. Ab eveniet dolores aliquam fugit sed hic iste, dolore excepturi molestiae dicta laboriosam laborum dignissimos sapiente inventore?</p>
+                <button> onclick="increaseCart()">Add to cart</button>
+            </div>
+            <div class="other-products">
+                <h2>Other Heroic Products</h2>
+                <div class="product-list">
+                    <div class="product">
+                        <img src="#" alt="root_sword">
+                        <p>Root Sword</p>
+                        <button> onclick="increaseCart()">Add to cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="#" alt="blood_sword">
+                        <p>Blood Sword</p>
+                        <button> onclick="increaseCart()">Add to cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="#" alt="finn_sword">
+                        <p>Finn Sword</p>
+                        <button> onclick="increaseCart()">Add to cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="#" alt="grass_sword">
+                        <p>Grass Sword</p>
+                        <button> onclick="increaseCart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>

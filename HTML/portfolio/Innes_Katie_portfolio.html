@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Katie Innes</h1>
+    <img src="img/profile-picture.jpeg" alt="photo of Katie Innes in front of colorful wall" style="width:300px;height:300px;">
+    <br><br>
+    <div>
+        <a href="https://github.com/KatieInnes"><img src="img/github-logo.png" alt="Github logo" style="width:30px;height:30px;"></a>
+        <a href="https://www.linkedin.com/in/katharineinnes/"><img src="img/linkedin-logo.png" alt="LinkedIn logo" style="width:30px;height:30px;"></a>
+        <a href="https://www.instagram.com/sfkatya_food/"><img src="img/instagram-logo.png" alt="Instagram logo" style="width:30px;height:30px;"></a>
+        <a href="mailto:katharine.innes@gmail.com"><img src="img/email-icon.png" alt="Envelope icon" style="width:30px;height:30px;"></a>
+    </div>
+    <div>
+        <p>I am a:</p>
+        <ul>
+            <li>native San Franciscan</li>
+            <li>mom of two</li>
+            <li>choral singer</li>
+            <li>former stage manager, elementary school teacher, and newspaper copy editor</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Hobbies and Favorites</h3>
+            <table>
+                <tr>
+                    <th>Cooking</th>
+                    <th>Soccer</th>
+                    <th>Music</th>
+                </tr>
+                <tr>
+                    <td>New recipes</td>
+                    <td>Portland Thorns</td>
+                    <td>First Aid Kit</td>
+                </tr>
+                <tr>
+                    <td>Farmers markets</td>
+                    <td>USWNT</td>
+                    <td>Gordi</td>
+                </tr>
+                <tr>
+                    <td>Eating with family</td>
+                    <td>Sherman Sharks</td>
+                    <td>Haim</td>
+                </tr>
+            </table>
+    </div>
+    <br><br>
+    <div>
+        <form action="/process" method="post">
+            <p>I love meeting new people! Introduce yourself to me, please?</p>
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name" >
+            </div>
+            <div>
+                <label>Email Address: </label>
+                <input type="text" name="email" >
+            </div>
+            <div>
+                <label>Favorite Music Genre: </label>
+                <select name="music">
+                    <option>Classical</option>
+                    <option>Country</option>
+                    <option>Hip Hop</option>
+                    <option>Jazz</option>
+                    <option>Klezmer</option>
+                    <option>Pop</option>
+                    <option>R&B</option>
+                    <option>Rap</option>
+                    <option>Rock</option>
+                    <option>Other*</option>
+                </select>
+                <div>
+                    <label>*If you selected other, what is your favorite genre? </label>
+                    <input type="text" name="other-genre" >
+                </div>
+            </div>
+            <div>
+                <label>Tell me a bit about yourself: </label>
+                <br>
+                <textarea name="comment" cols="50" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send Message" >
+            </div>
+        </form>
+    </div>
+</body>
+</html>

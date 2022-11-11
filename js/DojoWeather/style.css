@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navigation Bar */
+
+.top {
+    margin: 0 auto;
+    background-color: #9FC5F8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 900px;
+}
+
+#nav-title {
+    /* display: flex;
+    justify-content: end; */
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.nav-links {
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.nav-links a {
+    display:flex;
+    color:white;
+    text-decoration: none;
+}
+
+.main {
+    width: 900px;
+    margin: 0px auto;
+    padding: 2px;
+    background-color: white;
+}
+
+.city-scale {
+    padding: 20px 0px;
+    width: 900px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    align-items: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.daily-forecast {
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    width: 900px;
+    padding-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.day {
+    background-color: #EEEEEE;
+    width: 18%;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.day img{
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.day p {
+    font-size: 18px;
+}
+
+.temps {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.high {
+    color: #CF2A27;
+}
+
+.low {
+    color: #2B78E4;
+}
+
+.high::after, .low::after {
+    content: "˚";
+}
+
+.cookie-time {
+    border: 2px solid black;
+    background-color: #EEEEEE;
+    width: 860px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+#cookie-message {
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.cookie-time a {
+    color: #085394;
+}
+
+.cookie-time button {
+    background-color: #9FC5F8;
+    border: 2px solid black;
+    color: black;
+    padding: 6px;
+    box-shadow: 3px 3px black;
+    font-weight: normal;
+    font-size: 14px;
+    width: 100px;
+}

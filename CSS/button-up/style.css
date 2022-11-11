@@ -1,0 +1,32 @@
+body {
+    margin: 30px 0px 0px 30px;
+}
+button {
+    background-color: whitesmoke;
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
+    border-radius: 16px;
+    text-align: center;
+    font-size: .95em;
+    width: 150px;
+    padding: 4px;
+    margin: 5px;
+    font-weight: bold;
+}
+.plus button {
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.1em;
+    width: 35px;
+    font-weight: normal;
+}
+.create button {
+    background-color:royalblue;
+    border: 2px solid black;
+    border-radius: 0px;
+    color: white;
+    padding: 6px;
+    box-shadow: 4px 4px black;
+    font-weight: normal;
+}

@@ -1,0 +1,22 @@
+h1 {
+    color: aqua;
+    background-color: black;
+}
+span.first {
+    color:white;
+}
+h2 {
+    text-align:center;
+    color: white;
+    background-color:rebeccapurple;
+    font-style: italic;
+}
+h3 {
+    text-align:right;
+    color:black;
+    background-color: cornflowerblue;
+    text-decoration: underline;
+}
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #2B78E4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+/* This targets the image within the list */
+
+li img {
+    width: 50px;
+}
+
+li { 
+    list-style: none;
+    text-decoration: none;
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a {
+    color:white;
+}
+
+input {
+    border-radius: 10px;
+}
+
+main {
+    border: 2px solid black;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.popup {
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: lightgray;
+    position: fixed;
+    top: 400px;
+    left: 750px;
+    display: none;
+}
+
+.popup button {
+    color: black;
+    background-color: whitesmoke;
+    padding: 4px;
+    box-shadow: 5px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.featured-products img {
+    width: 100%;
+}
+
+button {
+    color: white;
+    background-color: #6AA84F;
+    padding: 4px;
+    box-shadow: 5px 5px 5px 0px black;
+    cursor: pointer;
+}
+
+.other-products {
+    margin-top: 10 px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+    border: 2px solid black;
+    width: 15%;
+    text-align: center;
+}
+
+.product img{
+    height: 250 px;
+}

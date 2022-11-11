@@ -1,0 +1,43 @@
+    .container {
+        width: 800px;
+        margin: 0px auto;
+        padding: 2px;
+        border: 2px solid gray;
+        background-color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .card-header {
+        background-color: #17A2B8;
+        padding: 20px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .circle {
+        background-color: white;
+        border: 2px solid gray;
+        margin-top: 20px;
+        padding: 5px;
+        border-radius: 50%;
+        height: 100px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    h2 {
+        font-weight: normal;
+    }
+
+    .map {
+        height: 20px;
+    }
+
+    .gear {
+        height: 20px;
+    }
+    a {
+        color:#2B78E4;
+    }
